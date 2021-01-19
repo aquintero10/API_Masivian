@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_Masivian", "API_Masivian\API_Masivian.csproj", "{E7025168-4AFA-45ED-B6BB-13A5DBB2424F}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{567CE435-EE58-4A9E-BB05-C51EBDA98E61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{049719EB-DCC0-412B-8880-AC57811E34AA}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7025168-4AFA-45ED-B6BB-13A5DBB2424F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7025168-4AFA-45ED-B6BB-13A5DBB2424F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7025168-4AFA-45ED-B6BB-13A5DBB2424F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7025168-4AFA-45ED-B6BB-13A5DBB2424F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{567CE435-EE58-4A9E-BB05-C51EBDA98E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567CE435-EE58-4A9E-BB05-C51EBDA98E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567CE435-EE58-4A9E-BB05-C51EBDA98E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567CE435-EE58-4A9E-BB05-C51EBDA98E61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48754070-39CC-4BB4-9E9E-386A12360364}
+	EndGlobalSection
+EndGlobal

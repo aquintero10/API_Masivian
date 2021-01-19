@@ -1,0 +1,28 @@
+version: '3.4'
+
+services:
+  api_masivian:
+    image: ${DOCKER_REGISTRY-}apimasivian
+    build:
+      context: .
+      dockerfile: API_Masivian/Dockerfile
+    ports:
+        - "8090:8090"
+    depends_on:
+        - redis
+    links:
+        - redis
+    networks:
+        - masivian
+  redis:
+    image: redis
+    container_name: redis
+    ports:
+        - "6379:6379"
+    networks:
+        - masivian
+networks:
+  masivian:
+    driver: "bridge"
+    external: true
+
