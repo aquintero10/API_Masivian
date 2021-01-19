@@ -13,10 +13,10 @@ you can create that network with the following command:
 docker network create masivian
 ```
 
-## Run in swagger
+## Run in Swagger
 
-API_Masivian has swagger documentation to inspect API methods and try out each one.
-To access the swagger you could run docker-compose and enter via port 62937
+API_Masivian has Swagger documentation to inspect API methods and try out each one.
+To access the Swagger you could run docker-compose and enter via port 62937
 http://localhost:62937/swagger/index.html
 Or running the web api locally via port 8090
 http://localhost:8090/swagger/index.html
