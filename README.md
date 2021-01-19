@@ -5,8 +5,9 @@ Repository por masivian test backend developer
 
 API_Masivian can be run either using docker or as a web api.
 
-The docker version builds and runs the API as a container and also an instance of Redis.
-It asumes a network called "masivian" exists in the local environment,
+The docker builds and runs the API as a container and also an instance of Redis.
+It asumes a network called "masivian" exists in the local environment, 
+and it's clarified that this docker has build using Linux containers.
 you can create that network with the following command:
 
 ```
