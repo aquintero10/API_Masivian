@@ -1,6 +1,6 @@
 # API Masivian
 **Repository por masivian test backend developer.**
-Using net core 3.1 and redis with implementation of cache repository built with Decorator pattern 
+Using net core 3.1 and redis with implementation of cache repository. Built with Decorator pattern 
 to access the distributed redis-cache and dependency inyection to install services in configuration.
 
 # To deploy
